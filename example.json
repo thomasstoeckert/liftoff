@@ -1,0 +1,64 @@
+{
+    "layout": {
+        "secondaryColor": "chromeYellow",
+        "primaryColor": "white",
+        "backgroundColor": "cobaltBlue",
+        "lastUpdated": "2016-11-16T02:22:33.746906",
+        "subtitle": "November 19, 2016 22:42:00 UTC",
+        "paragraphs": [
+            "Launch is good to go!",
+            "Cape Canaveral, FL, USA",
+            "The Geostationary Operational Environmental Satellite-R Series (GOES-R) is the next generation of geostationary weather satellites. The four satellites of the series will provide advanced imaging with increased spatial resolution and faster coverage for more accurate forecasts, real-time mapping of lightning activity, and improved monitoring of solar activity. GOES-R is the first satellite of the series, and it will provide continuous imagery and atmospheric measurements of Earth\u2019s Western Hemisphere and space weather monitoring. It will be the primary tool for the detection and tracking of hurricanes and severe weather."
+        ],
+        "type": "genericPin",
+        "tinyIcon": "system://images/NOTIFICATION_LIGHTHOUSE",
+        "title": "Atlas V 541 | GOES-R",
+        "headings": [
+            "Status: Green",
+            "Launch Location",
+            "Mission: GOES-R"
+        ]
+    },
+    "time": "2016-11-21T22:42:00Z",
+    "id": "765_testing",
+    "createNotification": {
+        "layout": {
+            "tinyIcon": "system://images/NOTIFICATION_LIGHTHOUSE",
+            "title": "Launch Added",
+            "body": "Net time at November 19, 2016 22:42:00 UTC",
+            "type": "genericNotification",
+            "subtitle": "Atlas V 541 | GOES-R"
+        }
+    },
+    "reminders": [
+        {
+            "layout": {
+                "tinyIcon": "system://images/NOTIFICATION_LIGHTHOUSE",
+                "title": "15 minutes until Atlas V 541 | GOES-R",
+                "type": "genericReminder"
+            },
+            "time": "2016-11-19T22:27:00Z"
+        },
+        {
+            "layout": {
+                "tinyIcon": "system://images/NOTIFICATION_LIGHTHOUSE",
+                "title": "Launch Imminent!",
+                "type": "genericReminder",
+                "subtitle": "Atlas V 541 | GOES-R"
+            },
+            "time": "2016-11-19T22:42:00Z"
+        }
+    ],
+    "actions": [
+        {
+            "title": "More Information...",
+            "type": "openWatchApp",
+            "launchCode": 7660
+        },
+        {
+            "title": "View Video...",
+            "type": "openWatchApp",
+            "launchCode": 7661
+        }
+    ]
+}

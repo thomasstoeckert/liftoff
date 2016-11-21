@@ -1,0 +1,76 @@
+[
+  { 
+    "type": "heading", 
+    "defaultValue": "Liftoff Config" 
+  }, 
+  { 
+    "type": "text", 
+    "defaultValue": "Use this page to configure what launches can appear on your timeline." 
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Country Selection"
+      },
+      {
+        "type": "checkboxgroup",
+        "label": "",
+        "messageKey": "countries",
+        "defaultValue": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "options": [
+          "Algeria",
+          "Australia",
+          "Democratic People's Republic of Korea",
+          "French Guiana",
+          "Japan",
+          "Kenya",
+          "New Zealand",
+          "People's Republic of China",
+          "Republic of India",
+          "Republic of Iran",
+          "Republic of Kazakhstan",
+          "Russian Federation",
+          "Sea Launch/Unknown",
+          "South Korea",
+          "States of Israel",
+          "United States of America"
+        ]
+      },
+      {
+        "type": "button",
+        "defaultValue": "Select All",
+        "id": "select_all",
+        "primary": true
+      },
+      {
+        "type": "button",
+        "defaultValue": "Deselect All",
+        "id": "deselect_all",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Update Subscriptions"
+  }
+]
