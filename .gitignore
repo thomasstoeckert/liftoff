@@ -8,3 +8,6 @@ dist.zip
 
 # Ignore installed node modules
 node_modules/
+
+# Ignore VSCode Extensions
+.vscode/
