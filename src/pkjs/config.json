@@ -15,6 +15,18 @@
         "defaultValue": "Country Selection"
       },
       {
+        "type": "button",
+        "defaultValue": "Select All",
+        "id": "select_all",
+        "primary": true
+      },
+      {
+        "type": "button",
+        "defaultValue": "Deselect All",
+        "id": "deselect_all",
+        "primary": true
+      },
+      {
         "type": "checkboxgroup",
         "label": "",
         "messageKey": "countries",
@@ -54,18 +66,6 @@
           "States of Israel",
           "United States of America"
         ]
-      },
-      {
-        "type": "button",
-        "defaultValue": "Select All",
-        "id": "select_all",
-        "primary": true
-      },
-      {
-        "type": "button",
-        "defaultValue": "Deselect All",
-        "id": "deselect_all",
-        "primary": true
       }
     ]
   },
