@@ -72,5 +72,9 @@
   {
     "type": "submit",
     "defaultValue": "Update Subscriptions"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Please consider donating to keep Liftoff's servers running <a href='https://pledgie.com/campaigns/32951'>here</a>"
   }
 ]
