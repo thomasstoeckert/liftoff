@@ -1,6 +1,6 @@
 #include "qr_window.h"
 
-#include "../modules/comm.h"
+#include "../modules/image_comm.h"
 
 static Window *s_qr_window;
 static BitmapLayer *s_qr_image_layer;

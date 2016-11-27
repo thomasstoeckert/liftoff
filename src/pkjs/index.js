@@ -1,10 +1,10 @@
 var sending = require("./image_sending.js");
+var fetching = require("./launch_fetching.js");
 
 Pebble.addEventListener("ready", function(e){
   console.log("JS is as ready as it'll ever be");
   //Let the watch know it's ok to send messages
   Pebble.sendAppMessage({ 'Ready' : true });
-
   Pebble.addEventListener("appmessage", function(e) {
     console.log("Got message: " + JSON.stringify(e.payload));
     var input = e.payload;
@@ -13,7 +13,11 @@ Pebble.addEventListener("ready", function(e){
       console.log("Going to fetch " + received_message);
       sending.fetchCode(received_message);
     }
-  })
+    if(input['GetNextLaunch']){
+      console.log("Fetching next launch");
+      fetching.fetchNext();
+    }
+  });
 });
 
 //Clay Stuff
@@ -57,7 +61,7 @@ Pebble.addEventListener('webviewclosed', function(e) {
       else { unsubscribeList.push(countries[key]); }
     }
   }
-  for (var s_item in subscribeList){ 
+  for (var s_item in subscribeList){
     Pebble.timelineSubscribe(subscribeList[s_item]);
   }
   for (var u_item in unsubscribeList){ 

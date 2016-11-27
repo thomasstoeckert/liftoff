@@ -1,13 +1,4 @@
-#include "comm.h"
-/*
-typedef enum {
-    MESSAGE_KEY_ready,      // Status of the communication
-    MESSAGE_KEY_Index = 0,  // Index of data chunk in whole array
-    MESSAGE_KEY_DataLength, // Length of the array being transmitted
-    MESSAGE_KEY_DataChunk,  // The chunk of image data
-    MESSAGE_KEY_ChunkSize,  // Size of any particular chunk
-    MESSAGE_KEY_Complete    // Signal that all data has been transferred
-} MessageKey;*/
+#include "image_comm.h"
 
 static uint8_t *s_img_data;
 static int s_img_size;
@@ -77,7 +68,6 @@ void comm_init() {
 
     const int inbox_size = 32000;
     const int outbox_size = 64;
-    APP_LOG(APP_LOG_LEVEL_DEBUG, "%d", (int) app_message_inbox_size_maximum);
     app_message_open(inbox_size, outbox_size);
 }
 

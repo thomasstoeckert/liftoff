@@ -31,7 +31,12 @@
       "DataChunk",
       "ChunkSize",
       "Complete",
-      "Ready"
+      "Ready",
+      "GetNextLaunch",
+      "NextLaunchName",
+      "NextLaunchNet",
+      "NextLaunchLocation",
+      "NextLaunchStatus"
     ],
     "resources": {
       "media": [
