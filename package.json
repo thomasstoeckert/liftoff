@@ -21,6 +21,7 @@
       "emery"
     ],
     "watchapp": {
+      "hiddenApp": true,
       "watchface": false
     },
     "messageKeys": [

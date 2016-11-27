@@ -12,7 +12,7 @@ void s_window_load(Window *window){
     GRect halfway = bounds;
     halfway.origin.y = halfway.size.h / 4;
     s_text_layer = text_layer_create(halfway);
-    text_layer_set_text(s_text_layer, "Welcome! To configure what launches appear on your timeline, plase open the configuration page on your phone.");
+    text_layer_set_text(s_text_layer, "Welcome! To configure what launches appear on your timeline, plase open the configuration page on your phone. Afterwards, availiable launches will appear on your timeline.");
     text_layer_set_text_color(s_text_layer, GColorWhite);
     text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
     text_layer_set_background_color(s_text_layer, GColorClear);
