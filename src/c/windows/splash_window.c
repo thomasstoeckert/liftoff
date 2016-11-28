@@ -10,9 +10,9 @@ void s_window_load(Window *window){
 	 * Default is used for displaying the splash screen
 	 */
     GRect halfway = bounds;
-    halfway.origin.y = halfway.size.h / 4;
+    halfway.origin.y = halfway.size.h / 6;
     s_text_layer = text_layer_create(halfway);
-    text_layer_set_text(s_text_layer, "Welcome! To configure what launches appear on your timeline, plase open the configuration page on your phone. Afterwards, availiable launches will appear on your timeline.");
+    text_layer_set_text(s_text_layer, "Welcome! To configure what launches are available, plase open the configuration page on your phone. Afterwards, availiable launches will appear on your timeline.");
     text_layer_set_text_color(s_text_layer, GColorWhite);
     text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
     text_layer_set_background_color(s_text_layer, GColorClear);
