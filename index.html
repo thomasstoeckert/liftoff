@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Liftoff | T-5 to the future!</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700,400italic,700italic">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Liftoff">
+    <meta name="application-name" content="Liftoff">
+    <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="js/script.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="pin">
+        <img src="images/pin_icons/AppIcon.svg">
+    </div>
+
+
+    <img src="images/logo.svg" id="logo">
+    <input type="range" min="0" max="3" name="platform" value="3" id="hardwareSlider" oninput="updateHardware(this.value)" onchange="updateHardware(this.value)">
+    <p id="hardware-display">Hardware: <span id="model">Emery</span></p>
+
+    <img src="images/screenshots/emery/emery_1.png" class="screenshot" id="shot1">
+    <img src="images/screenshots/emery/emery_2.png" class="screenshot" id="shot2">
+    <img src="images/screenshots/emery/emery_3.png" class="screenshot" id="shot3">
+
+    <h3>Space enthusiasts! Rocket Lovers! People who like it when things go boom in the right direction!</h3>
+    <p>
+        Have you ever wanted to know when those pillars of ingenuity are destined to leave the bonds of earth's gravity in a blaze
+        of glory? With Liftoff, now you can! </p>
+
+    <p> Liftoff is a timeline-filler app that uses the free API available at launchlibrary.net to give users the ability to see
+        at a glance when and where a rocket launches, and see the rocket's mission. Liftoff also provides handy reminders,
+        at 15 minutes before and at the expected launch time, to let you know when a launch happens. </p>
+
+    <p> Liftoff isn't isolated to the progression of the United States. It can see the liftoff times of any rocket, anywhere
+        (that's publicly available, that is). And if you don't want to see rockets from a specific country? No worries! The
+        configuration page provides you the ability to select from at least 16 different locations, of which you can subscribe
+        and unsubscribe to with ease. </p>
+    <p> And now with update 1.1.0, you can easily access more information or video streams via an on-watch QR code, directing
+        you to those links when available. </p>
+
+    <h4>What are you waiting for, star-gazer? Get Liftoff installed now!</h4>
+    <div class="pin">
+        <img src="images/pin_icons/GENERIC_CONFIRMATION.svg">
+    </div>
+    <h2> Download now from the <a href="https://apps.getpebble.com/applications/57c2fc8cf69d1d7a390002ea">Pebble App Store!</a>        </h2>
+    <p> Liftoff is powered by <a href="https://launchlibrary.net">LaunchLibrary</a>, a free API that allows the quick access
+        of reliable information, maintained by a volunteer community. </p>
+</body>
+
+</html>
